@@ -12,7 +12,7 @@ mongoose.connect(MONGO_URL, {
 
 const io = require('socket.io')(PORT, {
   cors: {
-    origin: 'http://localhost:3000',
+    origin: 'https://googledocsclone.onrender.com',
     methods: ['GET', 'POST']
   }
 })
