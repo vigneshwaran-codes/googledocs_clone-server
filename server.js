@@ -12,7 +12,7 @@ mongoose.connect(MONGO_URL, {
 
 const io = require('socket.io')(PORT, {
   cors: {
-    origin: 'https://googledocsclone.onrender.com',
+    origin: 'https://googledocs-clone.netlify.app',
     methods: ['GET', 'POST']
   }
 })
